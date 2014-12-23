@@ -1,0 +1,100 @@
+html,body{height: 100%;width: 100%;}
+body {
+  font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative;
+  /*background: url(/static/shike_screen/images/bg_wood.jpg) 100%;*/
+  background: url(/static/shike_screen/images/bg.jpg) no-repeat scroll center 0px #030B22;
+  /*background-attachment: fixed;*/
+  background-size: 100% 100%;
+}
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: block;
+  height: 0px;
+  visibility: hidden;
+  line-height: 0;
+}
+.bg_christmas_red{
+  background: url(/static/shike_screen/images/bg_christmas_red.jpg) no-repeat scroll center 0px #030B22;
+  background-size: 100% 100%;
+}
+.bg_china_newyear{
+  background: url(/static/shike_screen/images/bg_china_newyear.jpg) no-repeat scroll center 0px #030B22;
+  background-size: 100% 100%;
+}
+.bg_night_sky{
+  background: url(/static/shike_screen/images/bg_night_sky.jpg) no-repeat scroll center 0px #030B22;
+  background-size: 100% 100%;
+}
+.wrapper{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+/*template_header*/
+#header,#main,#footerMenu{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+#header{
+  height: 120px;
+  margin-bottom: 10px;
+}
+#header .logo{
+  position: absolute;
+  left: 0;top: 50%;
+  margin-top: -26px;
+  width: 210px;height: 52px;
+  
+}
+#title{
+  margin-left: 220px;
+}
+#title h1{
+  font-size: 60px;
+}
+#title h2{
+  font-size: 30px;
+}
+#title .qrcode{
+  position: absolute;right: 0;top:10px;
+  width: 100px;height: 100px;
+  z-index: 1000;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4) inset,
+       0px 0px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+#main{
+  height: 540px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#footerMenu{
+  height: 60px;
+}
+#footerMenu .logo{
+  width: 156px;height: 43px;
+  position: absolute;
+  left: 0;top: 50%;
+  margin-top: -22px;
+}
+#footerMenu #menu{
+  margin-top: 10px;
+  /*padding-top: 10px;*/
+  margin-left: 200px;
+}
+#menu li{
+  *display: inline;
+  display: inline-block;
+}
+#menu .btn-icon{margin-top:10px;}
+
+#menu .btn-func-container{float: right;}

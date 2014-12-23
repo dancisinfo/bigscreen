@@ -1,0 +1,102 @@
+.w-200{width:200px;}
+.w-150{width:150px;}
+.w-100{width:100px;}
+.fixed{position: fixed;}
+.ml-4px{margin-left: 4px;}
+.btn-group{margin-bottom: 5px;}
+.radio-inline{display: inline;}
+.ueditor{width:400px;height:300px;margin-bottom:50px;}
+.event-link{line-height: 28px;float: right;}
+form .controls input{width: 400px;}
+form .controls select{width: 410px;}
+form .controls input[type='radio']{width: auto;}
+form .controls input[type='submit']{width: 48px;}
+
+#main-nav a i{
+    margin-right: 2px;
+}
+footer p{text-align: center;margin: 5px 0;}
+
+.clearfix:after { 
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden; 
+} 
+ .clearfix {display: inline-block;}  /* for IE/Mac */  
+/*for manage*/
+form .addr-nav-group input{width: 193px;}
+form .addr-nav-group .control-group{margin-bottom: 10px;}
+form .help-error,form .help-errors,form .help-important{color: #f00;margin: 0 2px;}
+#preview_img{
+	width:410px;max-height:300px;
+	margin: 10px 0;
+}
+/*end manage*/
+
+/*statis*/
+.static-container{
+	display: table;
+}
+.statis-box{
+	text-align: center;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0 10px 10px 0;
+	width: 200px;
+}
+.statis-box:hover{
+	opacity: 0.7;
+}
+.statis-box a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding-top: 15px;
+}
+.statis-box .num{
+	font-size: 35px;
+	line-height: 35px;
+	display: inline-block;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.statis-box .info{
+	clear: left;
+	font-size: 20px;
+}
+.inner{
+	padding: 10px;
+	height: 120px;
+}
+
+.inner-green{
+	background-color: rgb(66,205,180);
+	border: 1px solid #57c78b;
+}
+.inner-blue{
+	background-color: #459ae9;
+	border: 1px solid #358aa9;
+	text-align: left;
+}
+.icon-manage{
+	display: inline-block !important;
+	background: url(/static/images/manage-sprite.png);
+	width: 34px;
+	height: 34px;
+	vertical-align: middle;
+	overflow: hidden;
+
+}
+.icon-manage-msg{
+	background-position: 0 0;
+}
+.icon-manage-user{
+	background-position: 0 -44px;
+}
+.icon-manage-users{
+	background-position: 0 -88px;
+}

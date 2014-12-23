@@ -1,0 +1,7 @@
+pyramid==1.4
+WebError
+pymongo
+pyramid_beaker
+pyramid_debugtoolbar
+pyramid_simpleform
+waitress

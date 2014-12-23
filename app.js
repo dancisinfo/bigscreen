@@ -23,10 +23,13 @@ app.get('/lottery',function(req,res){
 app.get('/checkin',function(req,res){
 	res.render('checkin.html',{})
 })
-
+app.get('/game',function(req,res){
+	res.render('game.html',{})
+})
 
 
 
 //启动服务
-app.listen(6543);
-console.log('server start at port 6543....')
+var PORT=8000
+app.listen(PORT);
+console.log('server start at port '+PORT)
